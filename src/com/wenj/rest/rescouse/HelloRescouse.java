@@ -7,6 +7,7 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.core.MediaType;
 @Path("/hello")
 public class HelloResourse {
+	// this is second commit
     @GET @Produces(MediaType.TEXT_PLAIN)
     public String sayHello() {
         return "Hello World!" ;
