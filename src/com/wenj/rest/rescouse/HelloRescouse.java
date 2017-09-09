@@ -12,7 +12,7 @@ public class HelloResourse {
     public String sayHello() {
         return "Hello World!" ;
     }
-
+//here threeth commit
     @GET @Path("/{param}")
     @Produces("text/plain;charset=UTF-8")
     public String sayHelloToUTF8(@PathParam("param") String username) {
